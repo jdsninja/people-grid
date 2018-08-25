@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App label {
+  cursor: pointer;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card{
+  border: 2px solid black;
+}
+.card h2{
+  font-size: 16px;
+  font-weight: bold;
+}
+.card .age,
+.card .category{
+  font-size: 12px;
+}
+.card .age{
+  font-style: italic;
+}
+
+.card.priority_1{
+  background-color: orange;
+}
+.card.priority_2{
+  background-color: green;
+}
+.card.priority_3{
+  background-color: blue;
+}
+.card.priority_4{
+  background-color: purple;
+}
