@@ -25,8 +25,9 @@ class App extends Component {
   }
 
   componentWillMount() {
-    this.setState({ users, alteredUsers: users })
-    this.setCategories(users)
+    console.log(users)
+    this.setState({ users: users.data })
+    this.setCategories(users.data)
   }
 
   sortBy = (users) => {
