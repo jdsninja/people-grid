@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 import get from 'lodash.get';
 import classnames from 'classnames';
-import logo from './logo.svg';
 import './App.css';
 import users from './data';
 import { SORT_TYPE } from './constants';
